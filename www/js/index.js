@@ -4,17 +4,21 @@ $(document).on("pagecreate","#pageOne",function(){
  
 	$("#btn").on("tap",function(){
 		var rnd = random();
-		if (rnd == 0){
-		$("#answ").text("true");
-			navigator.notification.beep(1)
+		
+		if(rnd) {
+			$("#answ").text("true");
+			navigator.notification.beep(1);
 		}
-		if (rnd == 1){
-		$("#answ").text("false");
-			navigator.notification.beep(2)
+		else {
+			$("#answ").text("false");
+			navigator.notification.beep(2);
 		}
-	})
-function random() {
-	return !Math.round(Math.random());
-}
+
+	});
+	
+	
+	function random() {
+		return !Math.round(Math.random());
+	}
 
 });
