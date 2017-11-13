@@ -10,6 +10,7 @@ $(document).on("pagecreate","#pageOne",function(){
 		if (rnd == 1){
 		$("#answ").text("false");
 		}
+	}
 function random() {
 	return !Math.round(Math.random());
 }
