@@ -6,9 +6,11 @@ $(document).on("pagecreate","#pageOne",function(){
 		var rnd = random();
 		if (rnd == 0){
 		$("#answ").text("true");
+			navigator.notification.beep(1)
 		}
 		if (rnd == 1){
 		$("#answ").text("false");
+			navigator.notification.beep(2)
 		}
 	})
 function random() {
