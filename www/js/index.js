@@ -11,7 +11,7 @@ $(document).on("pagecreate","#pageOne",function(){
 		}
 		else {
 			$("#answ").text("false");
-			navigator.notification.beep(2);
+			navigator.vibrate(2000);
 		}
 
 	});
