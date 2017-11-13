@@ -6,10 +6,10 @@
         id        = "gesture.entry"
         version   = "1.0.0">
 
-    <name>Gesture Entry</name>
+    <name>RandomGenerator</name>
 
     <description>
-        A sample application that gets Gesture input.
+        A sample application that gets a random generator.
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
